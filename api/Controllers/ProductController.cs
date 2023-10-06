@@ -30,7 +30,7 @@ namespace api.Controllers
         {
             var products = new List<Product>();
 
-            for (int i = 0; i < 50; i++)
+            for (int i = 0; i < 10; i++)
             {
                 Product p = new Product(i, $"Laptop-{i}", 1000 * i, 2 * i);
                 products.Add(p);
